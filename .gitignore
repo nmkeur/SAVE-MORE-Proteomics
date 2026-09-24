@@ -1,0 +1,23 @@
+# Ignore everything except empty data/, scripts/, figures/, and results/
+/*
+
+!/.gitignore
+
+!/data/
+/data/*
+!/data/.gitkeep
+
+!/scripts/
+!/scripts/**
+
+!/figures/
+!/figures/**
+
+!/results/
+!/results/**
+
+# Keep session junk out of tracked trees
+**/.Rhistory
+**/.RData
+**/.DS_Store
+**/.Rproj.user/
