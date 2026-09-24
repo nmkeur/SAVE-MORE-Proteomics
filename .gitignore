@@ -2,6 +2,14 @@
 /*
 
 !/.gitignore
+!/.Rprofile
+!/DESCRIPTION
+!/renv.lock
+!/renv/
+/renv/*
+!/renv/activate.R
+!/renv/settings.json
+!/renv/.gitignore
 
 !/data/
 /data/*
@@ -9,6 +17,9 @@
 
 !/scripts/
 !/scripts/**
+
+# Keep preprocessing scripts local
+/scripts/00_*
 
 !/figures/
 !/figures/**
