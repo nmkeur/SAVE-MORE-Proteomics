@@ -1,0 +1,42 @@
+Package: SAVE.MORE.Proteomics
+Title: SAVE-MORE proteomics analysis
+Version: 0.0.1
+Authors: Nick
+Description: R scripts for the SAVE-MORE proteomics analysis.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.3)
+Imports:
+    bestNormalize,
+    broom,
+    broom.mixed,
+    dplyr,
+    emmeans,
+    EnhancedVolcano,
+    forcats,
+    ggplot2,
+    ggplotify,
+    ggpubr,
+    ggraph,
+    ggrepel,
+    haven,
+    Hmisc,
+    igraph,
+    lme4,
+    lmerTest,
+    mice,
+    OlinkAnalyze,
+    patchwork,
+    pheatmap,
+    pROC,
+    purrr,
+    rbioapi,
+    readr,
+    readxl,
+    stringr,
+    survival,
+    survminer,
+    tibble,
+    tidygraph,
+    tidyr,
+    tidyverse
